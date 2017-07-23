@@ -27,7 +27,7 @@ componentWillMount(){
 	}
 
 	loadJSONData() {
-	 fetch('http://35.164.238.231:3003/api/goibibo/buses?source=BOM&destination=DEL&dateofdeparture=20170305')
+	 fetch('//some-api')
 		  .then(function(response){
 		   this.setState({getData: response.json()})	  
 		})
